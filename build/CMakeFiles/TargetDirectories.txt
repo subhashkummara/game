@@ -1,0 +1,3 @@
+C:/repos/cpplearn/INTERESTING/game/build/CMakeFiles/NumberGuessGame.dir
+C:/repos/cpplearn/INTERESTING/game/build/CMakeFiles/edit_cache.dir
+C:/repos/cpplearn/INTERESTING/game/build/CMakeFiles/rebuild_cache.dir

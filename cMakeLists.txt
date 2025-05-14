@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Project name
+project(NumberGuessGame)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+# set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# # Add the source files
+# set(SOURCES
+#     src/main.cpp
+#     # src/game.cpp
+#     # src/player.cpp
+# )
+
+# Add the executable
+add_executable(NumberGuessGame
+ src/main.cpp
+ src/game.cpp
+ src/score_manager.cpp
+ )
+
+# Include directories
+# target_include_directories(NumberGuessGame PRIVATE include)
+
+# Link libraries if needed (e.g., SDL2, SFML)
+# find_package(SDL2 REQUIRED)
+# target_link_libraries(SimpleGame SDL2::SDL2)
